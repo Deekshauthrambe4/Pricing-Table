@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJX3X0jCuzWfJt6oP2YkCkz6vefM9xvjzI5VtOZlPAew2pLQtPJNhu7rfQU1" crossorigin="anonymous">
+    <style>
+        .pricing-card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .pricing-card .card-body {
+            padding: 40px;
+        }
+        .pricing-card .btn {
+            width: 100%;
+        }
+        .featured-plan {
+            border: 2px solid #007bff;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Basic Plan -->
+            <div class="col-md-4">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Basic Plan</h3>
+                        <p class="text-center"><strong>$10</strong> / month</p>
+                        <ul class="list-unstyled">
+                            <li>5 Projects</li>
+                            <li>10GB Storage</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Standard Plan (Featured) -->
+            <div class="col-md-4">
+                <div class="card pricing-card featured-plan">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Standard Plan</h3>
+                        <p class="text-center"><strong>$25</strong> / month</p>
+                        <ul class="list-unstyled">
+                            <li>20 Projects</li>
+                            <li>50GB Storage</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Premium Plan -->
+            <div class="col-md-4">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Premium Plan</h3>
+                        <p class="text-center"><strong>$50</strong> / month</p>
+                        <ul class="list-unstyled">
+                            <li>Unlimited Projects</li>
+                            <li>200GB Storage</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM2yYzSe4d2l6hYaGqYOfQzoqV5A4Wz95O3Pb0L" crossorigin="anonymous"></script>
+</body>
+</html>
